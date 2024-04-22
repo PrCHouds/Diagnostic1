@@ -8,5 +8,6 @@ for i in alf:
                     st= i+j+k+l+m
                     t = [i for i in st if i in 'euioay']
                     if len(t) > 0:
+                        print(st)
                         c+=1
 print(c)
